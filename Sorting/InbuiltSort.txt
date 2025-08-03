@@ -1,0 +1,18 @@
+Inbuilt Sort in Java
+
+To sort an array, Java provides the method:
+Arrays.sort(arrayName);
+This method is available in the java.util.Arrays package, or you can directly import java.util.*.
+
+Time Complexity: O(n log n)
+
+If you want to sort up to a particular position or between specific indices, you can use:
+Arrays.sort(arrayName, si, ei);
+
+si → starting index (inclusive)
+
+ei → ending index (exclusive)
+
+If you want to sort an array in reverse order, you can use:
+Arrays.sort(arrayName, Collections.reverseOrder());
+⚠️ This will only work with non‑primitive data types (like objects), not primitive arrays.
